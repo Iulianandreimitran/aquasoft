@@ -7,7 +7,7 @@ const lab = {
     return `Lab: ${this.title}`;
   }
 };
-console.log(lab.describe()); // "Lab: Syntax Trees"
+console.log(lab.describe()); 
 
 // Arrow function as method (not recommended with 'this')
 const student = {
