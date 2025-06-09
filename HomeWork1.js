@@ -88,6 +88,7 @@ for (const key in prof) {
 const profCopy = JSON.parse(JSON.stringify(prof));
 profCopy.office.room = 101;
 
+// show the difference: changing profCopy does not affect the original
 console.log("Original office:", prof.office.room);
 console.log("Copied office:", profCopy.office.room);
 
