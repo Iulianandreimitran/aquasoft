@@ -15,11 +15,13 @@ Database connection established successfully.
 Server is listening on port 3000.
 
 4.Public GET endpoints (no token required)
+
 Get all hotels (GET), URL: http://localhost:3000/hotels
 Get a hotel by name (GET), URL: http://localhost:3000/hotels/name
 name example Melbourne%20Suites
 
 5.Obtain a JWT token
+
 POST, URL: http://localhost:3000/login
 Configure Authorization in Postman and with the token from login
 Body (raw JSON): { "username": "admin", "password": "parola123" }
