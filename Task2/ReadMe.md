@@ -4,11 +4,7 @@ How to run the code:
 
 1.Install packages:
 
-npm install express sequelize pg pg-hstore jsonwebtoken dotenv
-
-npm install --save-dev typescript ts-node-dev @types/node @types/express
-
-@types/jsonwebtoken @types/dotenv @types/pg
+npm install - will install all the packages from package.json
 
 2.Start the server:
 
